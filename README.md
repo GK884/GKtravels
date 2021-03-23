@@ -2,6 +2,7 @@
 A fully responsive website built on HTML, CSS, Bootstrap and Flask which is used to book tour plans with in India.
 This website is deployed on heroku https://gktravels.herokuapp.com/
 
+Also used mongodb altas for storing data of user. use your different user id and password and database name according to your collection.
 
 steps for use in your local system:
 
