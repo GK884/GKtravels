@@ -26,4 +26,6 @@ steps for Deployment on Heroku:
   11.git commit -am "first-commit"
   12. 'git push heroku master'
   
-you will get the link on the terminal of your deployed app
+you will get the link on the terminal of your deployed app.
+
+Always welcomes you all to make changes.
