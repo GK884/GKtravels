@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>GK Travels</title>
+</head>
+
+<body >
+
+    <!-- navbar -->
+    <nav class="navbar navbar-light" style="background-color: #89bde491 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="/static/photos/logo.png" alt="" width="40" height="49" class="d-inline-block align-center">
+                <span class="title">
+                    GK Travels
+                </span>
+            </a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <br>
+    <br>
+
+    <div class="formdiv">
+        <h3 style="color : blue">Get the Best Holiday Planned by Experts!</h3>
+        <p>Enter your contact details and we will plan the best holiday suiting all your requirements.</p>
+        <br>
+
+        <form class="row g-3" action="/contactus" method="POST">
+            <div class="col-md-4">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" name="inputEmail4">
+            </div>
+            
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="inputAddress">
+            </div>
+            
+            <div class="col-md-5">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity" name="inputCity">
+            </div>
+            
+
+            <div class="col-md-3">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip" name="inputZip">
+            </div>
+        
+            <div class="col-md-4">
+                <label for="phoneno" class="form-label">Phone No. </label>
+                <input type="text" class="form-control" id="phoneno" name="phoneno">
+            </div>
+            
+            
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Contact Us</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

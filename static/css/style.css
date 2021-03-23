@@ -1,0 +1,43 @@
+.title{
+    font-family: 'Lobster', cursive;
+}
+
+.about{
+    padding: 40px;
+}
+.head{
+    text-align: center;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.photoarea{
+    
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+    
+}
+
+
+
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.formdiv{
+        
+        margin: auto;
+        width: 50%;
+        border: 3px solid #f3f3f3;
+        padding: 10px;
+
+}
