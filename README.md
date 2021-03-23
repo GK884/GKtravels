@@ -5,25 +5,25 @@ This website is deployed on heroku https://gktravels.herokuapp.com/
 
 steps for use in your local system:
 
-  fork the repo
-  clone in your local pc
-  make a seperate environment
-  install requirements.txt (pip install -r requirements.txt)
-  Run the app.py
+  1. fork the repo
+  2. clone in your local pc
+  3. make a seperate environment
+  4. install requirements.txt (pip install -r requirements.txt)
+  5. Run the app.py
 
 steps for Deployment on Heroku:
 
-  download heroku cli first from this link https://devcenter.heroku.com/articles/heroku-cli
-  check heroku is installed in our system do open 'Anaconda prompt' or 'Terminal' and just type 'heroku' in there for confirmation.
-  type "heroku login"
-  login on heroku or do sign up
-  go to your heroku dashboard and create a new app and give name
-  in your conda terminal create a new environment "conda create -n python=3.6" put your environment name in place of
-  go to the file location
-  'git init'
-  'heroku git:remote -a check on your dashboard
-  'git add .'
-  git commit -am "first-commit"
-  'git push heroku master'
+  1. download heroku cli first from this link https://devcenter.heroku.com/articles/heroku-cli
+  2. check heroku is installed in our system do open 'Anaconda prompt' or 'Terminal' and just type 'heroku' in there for confirmation.
+  3. type "heroku login"
+  4. login on heroku or do sign up
+  5. go to your heroku dashboard and create a new app and give name
+  6. in your conda terminal create a new environment "conda create -n python=3.6" put your environment name in place of
+  7. go to the file location
+  8. 'git init'
+  9. 'heroku git:remote -a check on your dashboard
+  10. 'git add .'
+  11.git commit -am "first-commit"
+  12. 'git push heroku master'
   
 you will get the link on the terminal of your deployed app
